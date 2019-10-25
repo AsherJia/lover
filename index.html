@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Our Love Story</title>
+	<title>我爱你，若荞</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<style type="text/css">
 		@font-face {
@@ -9,56 +9,93 @@
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/functions_dev.js"></script>
 </head>
 
 <body>
+	<audio id="loveStory" src="./loveStory.mp3" autoplay controls loop>
+		Your browser does not support the <code>audio</code> element.
+	</audio>
 	<div id="mainDiv">
+	<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					若荞，我已经在一起
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					享受跟你在一起的每一天 ! <br/>
+					<div class="signature">- Asher</div>
+				</div>
+			</div>
+		</div>
 		<div id="content">
 			<div id="code">
 				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* 我不是一个善于表达自己的人</span><br />
-				<span class="space"/><span class="comments">* 所以总是用行动来一点一点证明着对你的爱</span><br />
+				<span class="space"/><span class="comments">* 这次我选择用代码加注释的方式来表达对你的爱：</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Asher""</span>);<br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Asher"</span>);<br />
 				Girl u = <span class="keyword">new</span> Girl(<span class="string">"小井"</span>);<br />
-				<span class="comments">// 自从第一次见面我便对你印象非常好，在一起的时候非常开心寡言的自己也变得健谈起来，与你分别的时候</span><br />
-				<span class="comments">// 会很难过，总是想创造机会跟你见面。也是从那时候开始，你走入了我的心里，我爱上了你。</span><br />
+				<br />
+
+				<span class="comments">
+					// 在你身上我总会发现自己的影子，我们有很多相似的想法和行为。
+					跟你在一起的时候特别开心，与你分别的时候会很失落。
+					每天元气满满的工作，晚上经常看时间等着23点的到来，数着日子创造机会跟你见面。
+					为了能够更好的照顾你，不断驱动自己前进。
+					你已经走入了我的内心深处，成为我生活的一部分。
+				</span><br />
 				i.love(u);<br />
-				<span class="comments">// 2019年9月15日 21:27:00 一个重要的日子，那一天你成为了我的女朋友。</span><br />
+				<br />
+
+				<span class="comments">
+					// 2019年9月15日 21:27:00 一个重要的日子，那一天你成为了我的女朋友。
+					我的心中多了一份责任和牵挂，漂泊在外孤独和迷惘一扫而逝。
+				</span><br />
 				u.accepted();<br />
+				<br />
+
 				<span class="comments">// 从那一天开始我每时每刻都在想念着你。</span><br />
 				i.miss(u);<br />
-				<span class="comments">// 总怕你照顾不好自己，总想把最好的都给你。</span><br />
+				<br />
+
+				<span class="comments">// 总怕你照顾不好自己，总想把最好的都给你。
+					再也没办法一个人去享受美好的事情，因为缺少你。
+				</span><br />
 				i.takeCareOf(u);<br />
-				<span class="comments">// 经营好一段感情从来不是一件容易的事。</span><br />
+				<br />
+
+				<span class="comments">// 经营好一段感情从来不是一件容易的事。
+					相处的过程中我们也会发现一些问题。
+					不过，没关系。相信我，我们会解决并且变得更好。
+					因为你是我心里那个对的人，这一点从未改变 ~
+				</span><br />
 				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
 				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/><span class="comments">// 但是我会一直陪着你，照顾你，等着你。因为我爱你，你是我命中注定的那个对的人。</span><br />
+				<span class="placeholder"/><span class="comments">// 我会一直陪着你，照顾你，等着你，因为我爱你。
+					这或许是爱情路上必须经过的一段荆棘，你只要拉着我的手就好。我会带着你往前走，不要怕一切有我。
+				</span><br />
 				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// 不久的将来，你会慢慢发现我已经成为了你的一个习惯，一份牵挂，一种寄托。从那一刻开始你不再犹豫。</span><br />
+				<br />
+
+				<span class="placeholder"/><span class="comments">// 不久的将来，我们会渐渐了解彼此。你会发现我已经不知不觉成为了你的一个习惯，一份牵挂，一种寄托。
+					从那一刻开始我们的感情将会步入一个新的阶段。
+				</span><br />
 				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
 				}<br />
-				<span class="comments">// 我们结婚，为彼此戴上了戒指。</span><br />
+				<br />
+
+				<span class="comments">// 结婚只是对我们感情的一个认可，一个见证。那天我们会为彼此带上戒指，开始以新的身份继续我们的故事。</span><br />
 				i.marry(u);<br />
-				<span class="comments">// 最浪漫的事，就是照顾你一辈子和你一起慢慢变老。</span>
+				<br />
+
+				<span class="comments">// 这段代码未完待续。。。因为我们还在继续谱写。。
+					将来某一天变老的我们躺在摇椅上手拉着手，笑着回忆一路走来的美好记忆。</span><br />
 				i.liveHappilyWith(u);<br />
-			</div>
-			<div id="loveHeart">
-				<canvas id="garden"></canvas>
-				<div id="words">
-					<div id="messages">
-						若荞，我已经爱上了你
-						<div id="elapseClock"></div>
-					</div>
-					<div id="loveu">
-						享受跟你在一起的每一天 ! <br/>
-						<div class="signature">- Asher</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
